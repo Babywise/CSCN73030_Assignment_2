@@ -31,6 +31,8 @@ int main(void) {
 		}
 	}
 
+	Fin.close();
+
 	return 1;
 
 }
