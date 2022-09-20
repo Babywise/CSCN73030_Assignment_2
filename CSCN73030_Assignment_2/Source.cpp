@@ -28,6 +28,13 @@ int main(void) {
 			std::getline(nameStream, currStudent.lastname, ',');
 			std::getline(nameStream, currStudent.firstname);
 			studentList.push_back(currStudent);
+
+			#ifdef _DEBUG
+				std::cout << currStudent.lastname;
+				std::cout << ", " << currStudent.firstname << std::endl;
+			#endif
+
+
 		}
 	}
 
